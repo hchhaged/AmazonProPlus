@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #eee;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .bg-header {
+            background-color: indigo;
+            height: 250px;
+        }
+
+        .card {
+            width: 450px;
+            border: 2px solid indigo;
+            margin: 0 auto;
+            margin-top: -150px;
+            border-radius: 5px;
+        }
+
+        .card-header {
+            background-image: url(assets/images/background.svg);
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: antiquewhite;
+        }
+
+        .card-body {
+            padding: 3rem;
+            background-color: antiquewhite;
+        }
+
+        .group {
+            display: flex;
+        }
+
+        .group span {
+            background-color: indigo;
+            padding: 1rem;
+            color: antiquewhite;
+        }
+
+        .group input {
+            width: 100%;
+            border: 1px solid indigo;
+        }
+
+        .sub {
+            color: gray;
+            margin: 1rem 0;
+            width: 100%;
+        }
+
+        .btn {
+            border: none;
+            background-color: indigo;
+            padding: 1rem;
+            color: antiquewhite;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .logo {
+            width: 120%;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+
+
+        }
+
+        .logo img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            border: solid white;
+        }
+
+        button {
+            box-shadow: 0 0 5px indigo, 0 0 25px indigo;
+        }
+
+        button:hover {
+            box-shadow: 0 0 5px indigo, 0 0 25px indigo, 0 0 50px indigo, 0 0 100px indigo, 0 0 200px indigo;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-header"></div>
+    <div class="card">
+        <div class="card-header">
+            <h1>Sign-Up</h1>
+            <p>Powered By SKILLHUB</p>
+        </div>
+        <div class="card-body">
+            <div class="group">
+                <span>Email</span>
+                <input placeholder=" Enter your OTP " type="number">
+            </div>
+            <p class="sub">Enter OTP sent on your email / mobile number</p>
+            <div class="group">
+                <span>Password</span>
+                <input placeholder=" Minimum 8 Character Password " type="password">
+            </div>
+            <p class="sub">Enter your New Password </p>
+            <div class="group">
+                <span>Re-enter</span>
+                <input placeholder=" Re-enter your new password" type="text">
+            </div>
+            <p class="sub">Re-enter your new password</p>
+            <p style="text-align: center;">Or Continue With</p>
+            <div class="logo ">
+                <img src="" alt="">
+                <img src="assets/types/google-logo.jpg" alt="">
+            </div>
+
+            <button class="btn" type="button" onclick="location.href='index.html'">LOGIN</button>
+        </div>
+        <div>
+        </div>
+    </div>
+</body>
+
+</html>
