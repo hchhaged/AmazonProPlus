@@ -78,8 +78,42 @@
 
     <!-- search end -->
 
+    <!-- Address  start-->
+
+    <div class="container">
+        <!-- <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#address">click me</button> -->
+        <div class="modal fade container" id="address">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <strong class="modal-header alert alert-primary">Choose your location</strong>
+                    <div class="modal-body mt-0">Select a delivery location to see product availability and delivery
+                        options.
+                        <button type="button" class="btn btn-warning container mt-1" style="text-align: center">Sign in
+                            to see
+                            your
+                            address.</button>
+                        <div style="text-align: center" class="ce my-1">--------------------------Or Continue
+                            With---------------------------</div>
+                        <div class="row container-fluid">
+                            <div class="col-10">
+                                <input type="text" class="form-control" id="zip" placeholder="" required />
+                            </div>
+                            <div class="col-1">
+                                <button type="button" class="btn btn-outline-primary">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Address  end-->
+
     <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg alert alert-primary">
+    <nav class="navbar navbar-expand-lg alert alert-primary mt-0">
         <div class="container">
             <i class="bi bi-amazon"></i>
             <a class="navbar-brand" href="#">Amazon Pro+</a>
@@ -128,7 +162,7 @@
                 </ul>
             </div>
             <div>
-                <button data-bs-toggle="collapse" data-bs-target="#search" type="button" class="btn btn-outline-dark">
+                <button data-bs-toggle="modal" data-bs-target="#address" type="button" class="btn btn-outline-dark">
                     Select Address <i class="bi bi-pin-map-fill"></i>
                 </button>
                 <button data-bs-toggle="collapse" data-bs-target="#search" type="button" class="btn btn-outline-dark">
@@ -141,6 +175,31 @@
                     Login <i class="bi bi-lock"></i>
                 </button>
             </div>
+
+
+            <!-- <div class="wrapper">
+                <input type="checkbox" id="hide-checkbox">
+                <label for="hide-checkbox" class="toggle">
+                    <span class="toggle-button">
+                        <span class="crater crater-1"></span>
+                        <span class="crater crater-2"></span>
+                        <span class="crater crater-3"></span>
+                        <span class="crater crater-4"></span>
+                        <span class="crater crater-5"></span>
+                        <span class="crater crater-6"></span>
+                        <span class="crater crater-7"></span>
+                    </span>
+                    <span class="star star-1"></span>
+                    <span class="star star-2"></span>
+                    <span class="star star-3"></span>
+                    <span class="star star-4"></span>
+                    <span class="star star-5"></span>
+                    <span class="star star-6"></span>
+                    <span class="star star-7"></span>
+                    <span class="star star-8"></span>
+                </label>
+            </div> -->
+
         </div>
     </nav>
 
@@ -578,7 +637,7 @@
     <!-- cart start -->
 
     <div class="offcanvas offcanvas-end" id="cart">
-        <div class="offcanvas-header bg-primary text-bg-light">
+        <div class="offcanvas-header text-bg-light">
             <h5 class="offcanvas-title" id="offcanvasExampleLabel">Cart</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
         </div>
@@ -587,19 +646,21 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-sm-3">
-                            <img class="img-fluid"
-                                src="https://rukminim2.flixcart.com/image/416/416/kwnv6a80/computer/9/c/i/-original-imag9aajekwegabt.jpeg?q=70"
+                            <img class="img-fluid" src="https://m.media-amazon.com/images/I/81wfmPBEOpL._AC_UY218_.jpg"
                                 alt="">
                         </div>
                         <div class="col-sm-6">
-                            <h6>Acer Nitro</h6>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Samsung 138 cm (55 inches) Crystal 4K Neo Series Ultra HD Smart LED TV UA55AUE65AKXXL
+                                (Black)</p>
+                            <p class="text-success text-center">You have saved 4555/-</p>
                         </div>
-                        <div class="col-sm-3">
-                            <strong>84,999/-</strong>
+                        <div class=" col-sm-3">
+                            <strong>45,999/-</strong>
+                            <img class="mt-3" height="18px"
+                                src="https://m.media-amazon.com/images/G/31/marketing/fba/fba-badge_18px-2x._CB485942108_.png"
+                                alt="">
                         </div>
                     </div>
-                    <p class="text-success text-center">You have saved 4555/-</p>
                     <div class="btn-group w-100" role="group">
                         <button type="button" class="btn btn-outline-danger">
                             <i class="bi bi-trash"></i>
@@ -617,19 +678,21 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-sm-3">
-                            <img class="img-fluid"
-                                src="https://rukminim2.flixcart.com/image/416/416/kwnv6a80/computer/9/c/i/-original-imag9aajekwegabt.jpeg?q=70"
+                            <img class="img-fluid" src="https://m.media-amazon.com/images/I/51oMWaW7tKL._AC_UY218_.jpg"
                                 alt="">
                         </div>
                         <div class="col-sm-6">
-                            <h6>Acer Nitro</h6>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>OnePlus Nord Buds 2r True Wireless in Ear Earbuds with Mic, 12.4mm Drivers,
+                                Playback:Upto 38hr case,4-Mic Design, IP55 Rating [Deep Grey]</p>
                         </div>
                         <div class="col-sm-3">
-                            <strong>84,999/-</strong>
+                            <strong>2,199/-</strong>
+                            <img class="mt-3" height="18px"
+                                src="https://m.media-amazon.com/images/G/31/marketing/fba/fba-badge_18px-2x._CB485942108_.png"
+                                alt="">
                         </div>
+                        <p class="text-success text-center">You have saved 4555/-</p>
                     </div>
-                    <p class="text-success text-center">You have saved 4555/-</p>
                     <div class="btn-group w-100" role="group">
                         <button type="button" class="btn btn-outline-danger">
                             <i class="bi bi-trash"></i>
@@ -650,21 +713,24 @@
                     <p class="text-primary">I have a coupon</p>
                     <div class="d-flex justify-content-between">
                         <span>Price</span>
-                        <strong>78,899/-</strong>
+                        <strong>48,198/-</strong>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <span>GST</span>
-                        <strong>8,899/-</strong>
+                        <span>GST (12%)</span>
+                        <strong>5,784/-</strong>
                     </div>
                     <hr>
                     <div class="d-flex justify-content-between">
                         <span>Total</span>
-                        <strong>88,899/-</strong>
+                        <strong>53,982/-</strong>
                     </div>
                 </div>
+                <button type="button" class="btn btn-warning mt-2" onclick="location.href='checkout.html'">Proceed
+                    to Buy (2 items)</button>
             </div>
-            <!-- bill end -->
         </div>
+        <!-- bill end -->
+    </div>
     </div>
     <!-- cart end -->
 
