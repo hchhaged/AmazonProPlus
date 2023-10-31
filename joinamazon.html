@@ -78,6 +78,10 @@
         .pricing-header {
             max-width: 700px;
         }
+
+        .card-body {
+            background-image: url(assets/images/photo.avif)
+        }
     </style>
 </head>
 
@@ -110,59 +114,95 @@
                     <a class="me-3 py-2 text-dark text-decoration-none" href="#">Features</a>
                     <a class="me-3 py-2 text-dark text-decoration-none" href="#">Enterprise</a>
                     <a class="me-3 py-2 text-dark text-decoration-none" href="#">Support</a>
-                    <a class="py-2 text-dark text-decoration-none" href="#">Pricing</a>
+                    <a class="me-3 py-2 text-dark text-decoration-none" href="#">Pricing</a>
+                    <!-- <a class="py-2 text-dark text-decoration-none" href="#">Contact Us</a> -->
+                    <button type="button" class="btn btn-group-sm btn-outline-info">
+                        Contact Us
+                    </button>
                 </nav>
             </div>
+            <div class="container">
 
-            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                <div class="col-sm-12">
+                    <div class="card mt-4">
+                        <div class="card-body bg-light">
+                            <div class="row col-7">
+                                <div class="col-sm-6">
+                                    <b class="display-6">Get Started With Us Today !</b>
+                                    <p>Subscribe to one of our plans</p>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="my-1">
+                                            <div class="col-sm-12 my-1 mt-0">
+                                                <img class="img-fluid"
+                                                    src="https://i.pinimg.com/originals/71/f0/8b/71f08b295ae0f7272ff3c968a88c1c4c.gif"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
                 <h1 class="display-4 fw-normal">Pricing</h1>
                 <p class="fs-5 text-muted">
                     Quickly build an effective pricing table for your potential
                     customers with this Bootstrap example. It’s built with default
                     Bootstrap components and utilities with little customization.
                 </p>
-            </div>
+            </div> -->
         </header>
 
+
+
         <main>
-            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center my-4">
                 <div class="col">
                     <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Free</h4>
+                        <div class="card-header py-3 bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Amazon</h4>
                         </div>
                         <div class="card-body">
                             <h1 class="card-title pricing-card-title">
-                                <small class="text-muted fw-light">/mo</small>
+                                <b class="text-muted text-black">₹399</b>
+                                <small class="text-muted fw-light">/yearly</small>
                             </h1>
                             <ul class="list-unstyled mt-3 mb-4">
-                                <li>10 users included</li>
+                                <li>Standard Delivery (2+ days)</li>
+                                <li>Streaming Quality (Standard)</li>
                                 <li>2 GB of storage</li>
                                 <li>Email support</li>
                                 <li>Help center access</li>
                             </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">
-                                Sign up for free
+                            <button type="button" class="w-100 btn btn-lg btn-primary">
+                                Get Started
                             </button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Pro</h4>
+                        <div class="card-header py-3 bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Amazon Pro</h4>
                         </div>
                         <div class="card-body">
                             <h1 class="card-title pricing-card-title">
-                                <small class="text-muted fw-light">/mo</small>
+                                <b class="text-muted text-black">₹799</b>
+                                <small class="text-muted fw-light">/yearly</small>
                             </h1>
                             <ul class="list-unstyled mt-3 mb-4">
-                                <li>20 users included</li>
+                                <li>Two Day Delivery</li>
+                                <li>Streaming Quality (HD/UHD)</li>
                                 <li>10 GB of storage</li>
                                 <li>Priority email support</li>
                                 <li>Help center access</li>
                             </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-primary">
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">
                                 Get started
                             </button>
                         </div>
@@ -170,21 +210,23 @@
                 </div>
                 <div class="col">
                     <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Enterprise</h4>
+                        <div class="card-header py-3 bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Amazon Pro+</h4>
                         </div>
                         <div class="card-body">
                             <h1 class="card-title pricing-card-title">
-                                <small class="text-muted fw-light">/mo</small>
+                                <b class="text-muted text-black">₹1499</b>
+                                <small class="text-muted fw-light">/yearly</small>
                             </h1>
                             <ul class="list-unstyled mt-3 mb-4">
-                                <li>30 users included</li>
+                                <li>One Day Delivery</li>
+                                <li>Maximum Immursive Streaming (4k)</li>
                                 <li>15 GB of storage</li>
                                 <li>Phone and email support</li>
                                 <li>Help center access</li>
                             </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-primary">
-                                Contact us
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+                                Get Started
                             </button>
                         </div>
                     </div>
@@ -198,17 +240,17 @@
                     <thead>
                         <tr>
                             <th style="width: 34%"></th>
-                            <th style="width: 22%">Free</th>
-                            <th style="width: 22%">Pro</th>
-                            <th style="width: 22%">Enterprise</th>
+                            <th style="width: 22%">Amazon</th>
+                            <th style="width: 22%">Amazon Pro</th>
+                            <th style="width: 22%">Amazon Pro+</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row" class="text-start">Public</th>
+                            <th scope="row" class="text-start">Unlimited FREE and FAST delivery</th>
                             <td>
                                 <svg class="bi" width="24" height="24">
-                                    <use xlink:href="#check" />
+                                    <use xlink:href="" />
                                 </svg>
                             </td>
                             <td>
@@ -223,7 +265,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" class="text-start">Private</th>
+                            <th scope="row" class="text-start">Exclusive Pro Deals and Early Access</th>
                             <td></td>
                             <td>
                                 <svg class="bi" width="24" height="24">
@@ -240,7 +282,7 @@
 
                     <tbody>
                         <tr>
-                            <th scope="row" class="text-start">Permissions</th>
+                            <th scope="row" class="text-start">5% reward-points on Amazon Pay</th>
                             <td>
                                 <svg class="bi" width="24" height="24">
                                     <use xlink:href="#check" />
@@ -258,8 +300,12 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" class="text-start">Sharing</th>
-                            <td></td>
+                            <th scope="row" class="text-start">Ad-Free Music</th>
+                            <td>
+                                <svg class="bi" width="24" height="24">
+                                    <use xlink:href="#check" />
+                                </svg>
+                            </td>
                             <td>
                                 <svg class="bi" width="24" height="24">
                                     <use xlink:href="#check" />
@@ -272,11 +318,11 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" class="text-start">Unlimited members</th>
+                            <th scope="row" class="text-start">Logged In Devices</th>
                             <td></td>
                             <td>
                                 <svg class="bi" width="24" height="24">
-                                    <use xlink:href="#check" />
+                                    <use xlink:href="" />
                                 </svg>
                             </td>
                             <td>
@@ -305,7 +351,7 @@
                 <div class="col-12 col-md">
                     <img class="mb-2"
                         src="data:image/png;base64,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"
-                        alt="" width="24" height="19" />
+                        alt="" width="39" height="39" />
                     <small class="d-block mb-3 text-muted">&copy; 2017–2022</small>
                 </div>
                 <div class="col-6 col-md">
